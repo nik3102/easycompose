@@ -6,7 +6,7 @@ plugins {
     id("maven-publish")
 }
 
-version = "0.1.4"
+version = "0.1.5"
 group = "com.nik3102.gradle"
 
 val gradleVersion = project.gradle.gradleVersion
