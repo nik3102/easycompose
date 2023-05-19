@@ -1,8 +1,8 @@
-package com.nik3102.gradle.easycompose
+package com.github.nik3102.easycompose
 
-import com.nik3102.gradle.easycompose.ext.androidTestImplementation
-import com.nik3102.gradle.easycompose.ext.debugImplementation
-import com.nik3102.gradle.easycompose.ext.implementation
+import com.github.nik3102.easycompose.ext.androidTestImplementation
+import com.github.nik3102.easycompose.ext.debugImplementation
+import com.github.nik3102.easycompose.ext.implementation
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.artifacts.Dependency

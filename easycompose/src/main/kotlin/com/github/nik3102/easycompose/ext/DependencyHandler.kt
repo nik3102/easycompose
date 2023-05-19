@@ -1,4 +1,4 @@
-package com.nik3102.gradle.easycompose.ext
+package com.github.nik3102.easycompose.ext
 
 import org.gradle.api.artifacts.Dependency
 import org.gradle.api.artifacts.dsl.DependencyHandler

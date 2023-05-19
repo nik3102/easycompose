@@ -1,4 +1,4 @@
-package com.nik3102.gradle.easycompose.dsl
+package com.github.nik3102.easycompose.dsl
 
 data class EasyCompose(
     /**

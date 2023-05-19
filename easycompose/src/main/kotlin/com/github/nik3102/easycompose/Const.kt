@@ -1,4 +1,4 @@
-package com.nik3102.gradle.easycompose
+package com.github.nik3102.easycompose
 
 object Const {
     const val kotlinCompilerExtensionVersion = "1.4.7"

@@ -1,10 +1,10 @@
 @file:JvmName("EasyComposeKt")
 
-package com.nik3102.gradle.easycompose.dsl
+package com.github.nik3102.easycompose.dsl
 
-import com.nik3102.gradle.easycompose.EasyComposeExtension
-import com.nik3102.gradle.easycompose.EasyComposePlugin
-import com.nik3102.gradle.easycompose.ext.configureAndroid
+import com.github.nik3102.easycompose.EasyComposeExtension
+import com.github.nik3102.easycompose.EasyComposePlugin
+import com.github.nik3102.easycompose.ext.configureAndroid
 import org.gradle.api.Project
 
 fun Project.easyCompose(setup: EasyCompose.() -> Unit) {

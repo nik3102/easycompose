@@ -1,7 +1,7 @@
-package com.nik3102.gradle.easycompose.ext
+package com.github.nik3102.easycompose.ext
 
 import com.android.build.gradle.BaseExtension
-import com.nik3102.gradle.easycompose.EasyComposeExtension
+import com.github.nik3102.easycompose.EasyComposeExtension
 import org.gradle.api.GradleException
 import org.gradle.api.JavaVersion
 import org.gradle.api.Project

@@ -1,4 +1,4 @@
-package com.nik3102.gradle.easycompose
+package com.github.nik3102.easycompose
 
 import org.gradle.api.provider.Property
 

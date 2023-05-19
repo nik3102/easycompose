@@ -1,6 +1,6 @@
-package com.nik3102.gradle.easycompose.dsl
+package com.github.nik3102.easycompose.dsl
 
-import com.nik3102.gradle.easycompose.Const
+import com.github.nik3102.easycompose.Const
 import org.gradle.api.GradleException
 
 data class Accompanist(

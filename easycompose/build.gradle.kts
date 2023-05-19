@@ -6,7 +6,7 @@ plugins {
     id("maven-publish")
 }
 
-version = "0.1.3"
+version = "0.1.4"
 group = "com.nik3102.gradle"
 
 val gradleVersion = project.gradle.gradleVersion
@@ -18,7 +18,7 @@ gradlePlugin {
     plugins {
         create("easycompose") {
             id = "com.github.nik3102.easycompose"
-            implementationClass = "com.nik3102.gradle.easycompose.EasyComposePlugin"
+            implementationClass = "com.github.nik3102.easycompose.EasyComposePlugin"
             description = "implement compose BOM and all need dependencies"
         }
     }
