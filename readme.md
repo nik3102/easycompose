@@ -9,7 +9,7 @@ This plugin adds dependencies for Compose and Accompanist to your module and con
 
 
 ## Setup:
-
+[![](https://jitpack.io/v/nik3102/easycompose.svg)](https://jitpack.io/#nik3102/easycompose)
 #### Main method
 
 Add the following code to your **settings.gradle.kts**
@@ -26,7 +26,7 @@ Add the following code to your module's  **build.gradle.kts**
 
 ```kotlin
 plugins {
-    id("com.github.nik3102:easycompose") version "1.1.1" apply false
+    id("com.github.nik3102:easycompose") version "version" apply false
 }
 ```
 
@@ -40,7 +40,7 @@ buildscript {
         maven { setUrl("") }
     }
     dependencies {
-        classpath("com.github.nik3102:easycompose:1.1.1")
+        classpath("com.github.nik3102:easycompose:version")
     }
 }
 ```
@@ -67,8 +67,6 @@ android { ... }
 Customize the configuration by adding the following code:
 
 ```kotlin
-import com.nik.gradle.easycompose.dsl.easyCompose
-
 easyCompose {
     version = "2023.05.01" //BOM version
     kotlinCompilerExtensionVersion = "1.4.7"
