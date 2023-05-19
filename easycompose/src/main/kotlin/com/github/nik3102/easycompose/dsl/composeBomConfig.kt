@@ -10,7 +10,9 @@ import org.gradle.api.Project
 fun Project.easyCompose(setup: EasyCompose.() -> Unit) {
     val config = EasyCompose().apply(setup)
     this.extensions.getByType(EasyComposeExtension::class.java).apply {
-        version.set(config.version)
+        config.version?.let {
+            version.set(it)
+        }
         config.kotlinCompilerExtensionVersion?.let {
             kotlinCompilerExtensionVersion.set(it)
         }
