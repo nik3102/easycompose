@@ -17,7 +17,7 @@ Add the following code to your **settings.gradle.kts**
 ```kotlin
 pluginManagement {
     repositories {
-        maven { setUrl("") }
+        maven { setUrl("https://jitpack.io") }
     }
 }
 ```
@@ -26,7 +26,7 @@ Add the following code to your module's  **build.gradle.kts**
 
 ```kotlin
 plugins {
-    id("com.nik3102.gradle.easycompose") version "1.1.1" apply false
+    id("com.github.nik3102:easycompose") version "1.1.1" apply false
 }
 ```
 
@@ -40,7 +40,7 @@ buildscript {
         maven { setUrl("") }
     }
     dependencies {
-        classpath("com.nik3102.gradle:easycompose:1.1.1")
+        classpath("com.github.nik3102:easycompose:1.1.1")
     }
 }
 ```
@@ -49,7 +49,7 @@ Add the following code to your module's **build.gradle.kts**
 
 ```kotlin
 plugins {   
-    id("com.nik3102.gradle.easycompose")
+    id("com.github.nik3102.easycompose")
 }
 ```
 
